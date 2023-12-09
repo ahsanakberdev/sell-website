@@ -1,0 +1,252 @@
+@media(max-width:600px){
+    .navigation-items{
+        padding: 16px;
+    }
+    .homepage-banner .page-title,
+    .section-heading{
+        font-size: var(--semiLargeD);
+        line-height: 32px;
+    }
+    .homepage-banner .page-title{
+        line-height: 42px;
+    }
+    header,
+    header .top-area{
+        top: 28px;
+    }
+    header .top-area{
+        margin-right: 16px;
+    }
+    span.smile img{
+        width: 30px;
+    }
+    .hero-wrap .smile-images .smile:nth-child(4) {
+        top: 55%;
+        left: 15%;
+    }
+    .hero-wrap .smile-images .smile:nth-child(7) {
+        top: 53%;
+        left: 45%;
+    }
+    .hero-wrap .smile-images .smile:nth-child(5) {
+        top: 56%;
+        left: 70%;
+    }
+    .hero-wrap .smile-images .smile:nth-child(2) img, .hero-wrap .smile-images .smile:nth-child(3) img{
+        width: 55px;
+    }
+    .hero-wrap .smile-images .smile:nth-child(2){
+        display: none;
+    }
+    .homepage-banner .banner-button{
+        margin-top: 26px;
+    }
+    .homepage-banner .section-paragraph{
+        width: 100% !important;
+    }
+    .brand-logos .brand-logos-wrapper > div{
+        width: 50%;
+        margin-bottom: 11px;
+    }
+    .brand-logos .brand-logos-wrapper > div:nth-child(3), .brand-logos .brand-logos-wrapper > div:nth-child(6),
+    .brand-logos .brand-logos-wrapper > div:nth-child(2), .brand-logos .brand-logos-wrapper > div:nth-child(5){
+        justify-content: flex-start;
+    }
+    .brand-logos {
+        top: -150px;
+    }
+    .our-benefits{
+        margin-top: -90px;
+    }
+    .our-benefits .benefits-grid{
+        padding-top: 32px;
+    }
+    .our-benefits h4,
+    .our-benefits .section-paragraph{
+        border-bottom: 1px solid var(--secondary);
+        width: fit-content;
+    }
+    .our-benefits .section-paragraph{
+        text-decoration: underline;
+        border: none;
+    }
+    .our-benefits h4{
+        padding-bottom: 3px;
+        margin-bottom: 24px;
+    }
+    .our-benefits{
+        padding-bottom: 0;
+    }
+    .admin-panel{
+        padding-top: 120px;
+    }
+    .admin-panel .desktop-mockup{
+        padding-top: 33px;
+    }
+    .secure-management, .choose-plan, .features-plan{
+        padding-top: 64px;
+    }
+    .secure-management .secure-management-grid{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .secure-management .secure-management-grid img{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .choose-plan .choose-plan-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .choose-plan .choose-plan-grid{
+        padding-top: 32px;
+    }
+    .choose-plan h4,
+    .choose-plan .price,
+    .choose-plan .actions a span
+    {
+        padding-bottom: 4px;
+        width: fit-content;
+    }
+    .choose-plan ul li span{
+        display: inline-block;
+        border-bottom: 1px solid var(--white);
+        width: fit-content;
+        padding-bottom: 0;
+        margin-bottom: 16px;
+    }
+    .choose-plan h4{
+        border-bottom: 1px solid var(--white);
+    }
+    .choose-plan .actions a span{
+        border-bottom: 1px solid var(--secondary);
+    }
+    .choose-plan .price{
+        border-bottom: 1px solid var(--pink);
+        padding: 0;
+    }
+    .features-plan .digital-platform-table td{
+        text-decoration: underline;
+    }
+    .features-plan .flex-area h4,
+    .features-plan .flex-area .section-paragraph,
+    .features-plan .flex-area span,
+    .features-plan .digital-platform-table span{
+        text-decoration: underline;
+    }
+    .features-plan table{
+        display: block;
+        overflow-x: auto;
+    }
+    .features-plan table td{
+        min-width: 150px;
+    }
+    .faq{
+        padding-top: 88px;
+    }
+    .faq .faq-accordion{
+        padding-top: 40px;
+    }
+    .faq .card-header{
+        padding: 24px 16px;
+    }
+    .faq .card-header .btn,
+    footer .flex-area .actions a{
+        font-size: var(--semiLarge);
+    }
+    .faq .card{
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .faq .card-body {
+        padding: 0 16px;
+        padding-top: 24px;
+        margin-bottom: 48px;
+    }
+    .faq .card-body .flex-area h5,
+    .faq .card-body .flex-area .section-paragraph{
+        text-decoration: underline;
+    }
+    .faq .card-body .flex-area{
+        padding-bottom: 15px;
+    }
+    .faq .card-header .btn.collapsed::before, .faq .card-header .btn::before{
+        top: -6px;
+    }
+    footer{
+        margin-top: 64px;
+        padding: 88px 14px 45px 14px;
+        clip-path:polygon(0 0, 92% 0, 100% 5%, 100% 100%, 0 100%, 0 40%, 6% 36%, 0 32%);
+      }
+    footer .section-heading{
+        line-height: 32px;
+    }
+    footer .footer-navigation ul,
+    footer .copy-right .flex-area,
+    footer .copy-right .flex-area > div{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .flex-area .actions a{
+        display: flex;
+        margin-left: 8px;
+        width: 100%;
+        font-size: 22px;
+        justify-content: space-between;
+    }
+    footer .footer-navigation ul li a,
+    footer .copy-right a, footer .copy-right .section-paragraph{
+        padding-bottom: 8px;
+        text-decoration: underline;
+    }
+    footer .go-to-top{
+        bottom: 24px;
+        top: auto;
+    }
+    footer .copy-right a:nth-child(2){
+        margin-left: 0;
+    }
+    .faq .card, .faq .card::before, .faq .card:nth-child(3), .faq .card:nth-child(3)::before {
+        clip-path: polygon(96% 0, 100% 4%, 100% 100%, 75% 100%, 4% 100%, 0 96%, 0 0);
+    }
+    .faq .card:nth-child(2), .faq .card:nth-child(2)::before, .faq .card:nth-child(4), .faq .card:nth-child(4)::before {
+        clip-path: polygon(50% 0%, 100% 0, 100% 96%, 94% 100%, 0 100%, 0 3%, 5% 0);
+    }
+    .choose-plan .actions a:hover span{
+        border-color: var(--dark);
+    }
+    .register-form .absolute-img img{
+        width: 160px;
+    }
+    .register-form{
+        padding: 20px;
+    }
+    .register-form .col-lg-6:nth-child(1){
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .register-form .absolute-img{
+        right: -70px;
+    }
+    .register-form .section-heading{
+        padding-bottom: 0;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .register-form .form-area{
+        padding-top: 20px;
+    }
+    .register-form .form-group,
+    .register-form .form-group:last-child{
+        margin-bottom: 20px;
+    }
+    .register-form .terms-services .section-paragraph{
+        width: 100%;
+        padding-left: 35px;
+    }
+    .register-form .custom-btn{
+        margin-top: 30px;
+    }
+    .register-form label{
+        font-size: 13px;
+    }
+}

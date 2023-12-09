@@ -1,0 +1,361 @@
+@media (max-width:9900px){
+    header li a,
+    .custom-btn,
+    .section-paragraph,
+    footer li a,
+    footer .footer-bottom button,
+    footer .copy-right a, footer .copy-right .section-paragraph {
+        font-size: var(--regularBigD);
+    }
+    .section-paragraph{
+        line-height: 140%;
+    }
+    .section-heading{
+        font-size: var(--bigFontD);
+    }
+    header {
+        top: 68px;
+    }
+    .homepage-banner .page-title {
+        font-size: var(--bigFontD);
+        line-height: 90px;
+        width: 70%;
+    }
+    .homepage-banner .section-paragraph{
+        width: 40%;
+    }
+    .brand-logos{
+        top: -60px;
+    }
+    .our-benefits{
+        padding: 230px;
+    }
+
+    .our-benefits h4{
+        font-size: var(--semiLarge);
+    }
+    .admin-panel .desktop-mockup{
+        padding-top: 96px;
+    }
+    .admin-panel .desktop-mockup img{
+        width: 100%;
+    }
+    .secure-management,
+    .choose-plan,
+    .features-plan, .faq{
+        padding-top: 168px;
+    }
+    .secure-management{
+        padding-bottom: 168px;
+    }
+    .choose-plan h4{
+        font-size: var(--semiLargeD);
+    }
+    .choose-plan .choose-plan-grid{
+        padding-top: 88px;
+    }
+    .choose-plan .price{
+        font-size: var(--sectionHeading);
+    }
+    .choose-plan .price span,
+    .features-plan .digital-platform-table span,
+    .features-plan .digital-platform-table td,
+    .faq .card-body .flex-area h5{
+        font-size: var(--regularBigD);
+    }
+    .choose-plan ul li{
+        font-size: var(--regularBigD);
+    }
+    .features-plan .flex-area h4{
+        font-size: var(--semiLargeD);
+    }
+    .faq .card-header .btn,
+    footer .flex-area .actions a{
+        font-size: var(--largeD);
+    }
+    footer{
+        margin-top: 168px;
+    }
+    footer .section-heading{
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:1600px){
+    .custom-btn{
+        font-size: var(--regular);
+    }
+    h4{
+        font-size: var(--semiLarge);
+    }
+    li,
+    ul li a,footer .copy-right a, 
+    footer .copy-right .section-paragraph{
+        font-size: var(--regular);
+    }
+    .our-benefits{
+        padding: 150px 0;
+    }
+    .secure-management,
+    .choose-plan,.features-plan,
+    .faq{
+        padding-top: 152px;
+    }
+    .secure-management{
+        padding-bottom: 152px;
+    }
+    .admin-panel .desktop-mockup{
+        padding-top: 75px;
+    }
+    header{
+        top: 56px;
+    }
+    .brand-logos {
+        top: -40px;
+    }
+    .section-heading{
+        font-size: var(--sectionHeading);
+    }
+    .section-paragraph{
+        font-size: var(--regular);
+    }
+    header li a{
+        font-size: var(--regular);
+    }
+    .homepage-banner .page-title{
+        font-size: var(--large);
+        line-height: 70px;
+    }
+    /* .homepage-banner .section-paragraph{
+        padding-top: 170px;
+    } */
+    .choose-plan .price{
+        font-size: var(--large);
+    }
+    .choose-plan .choose-plan-grid{
+        padding-top: 80px;
+    }
+    .choose-plan .price span{
+        font-size: var(--regular);
+    }
+    .choose-plan h4,
+    .features-plan .flex-area h4{
+        font-size: var(--semiLarge);
+    }
+    .choose-plan ul li{
+        font-size: var(--regular);
+    }
+    .features-plan .digital-platform-table span{
+        font-size: var(--regular);
+    }
+    .features-plan .digital-platform-table td{
+        font-size: var(--regular);
+    }
+    footer .flex-area .actions a{
+        font-size: var(--semiLarge2);
+    }
+    footer .footer-bottom button{
+        font-size: var(--regular);
+    }
+    .faq .card-header .btn{
+        font-size: var(--semiLarge2);
+    }
+    .faq .card-body .flex-area h5{
+        font-size: var(--regular);
+    }
+    footer .section-heading{
+        width: 60%;
+    }
+    .register-form .right-box h3{
+        font-size: var(--large);
+        margin-bottom: 16px;
+    }
+    .register-form .right-box{
+        padding-top: 60px;
+        padding-left: 70px;
+    }
+    .register-form .right-box .section-paragraph{
+        font-size: var(--regular);
+        margin-bottom: 28px;
+        width: 60%;
+    }
+    .register-form .col-lg-6:nth-child(1){
+        padding-right: 140px;
+    }
+    .register-form{
+        padding-top: 60px;
+        padding-left: 120px;
+    }
+    .register-form .section-heading{
+        font-size: var(--semiLarge2);
+        padding-bottom: 8px;
+    }
+    .register-form .form-group{
+        margin-bottom: 28px;
+    }
+    .register-form .form-area{
+        padding-top: 40px;
+    }
+}
+
+@media(max-width:1350px){
+    .hero-wrap .smile-images .smile:nth-child(2) img,
+    .hero-wrap .smile-images .smile:nth-child(3) img{
+        width: 120px;
+    }
+    .section-heading{
+        font-size: var(--large);
+    }
+    .hero-wrap .smile-images .smile:nth-child(3){
+        left: 70%;
+    }
+    .homepage-banner .page-title{
+        font-size: var( --largeD);
+        line-height: 60px;
+    }
+    .section-paragraph{
+        font-size: var(--regular);
+    }
+    .homepage-banner .banner-button{
+        margin-top: 60px;
+    }
+    header{
+        top: 64px;
+    }
+    .brand-logos{
+        top: -60px;
+    }
+    .our-benefits{
+        padding: 110px 0;
+    }
+    .secure-management{
+        padding-bottom: 110px;
+    }
+    .secure-management, .choose-plan, .features-plan, .faq{
+        padding-top: 110px;
+    }
+    .our-benefits .benefits-grid{
+        padding-top: 54px;
+        gap: 20px;
+    }
+    .our-benefits h4{
+        padding-top: 114px;
+    }
+    .admin-panel .desktop-mockup{
+        padding-top: 67px;
+    }
+    .secure-management .section-heading{
+        font-size: 40px;
+        width: 60%;
+    }
+    .features-plan .flex-area, .features-plan .digital-platform-table{
+        padding-top: 64px;
+    }
+    .faq .faq-accordion{
+        padding-top: 60px;
+    }
+    .faq .card-header{
+        padding: 50px;
+    }
+    .faq .card{
+        margin-bottom: 22px;
+    }
+    .faq .card-body {
+        padding: 0 50px;
+        padding-top: 30px;
+        margin-bottom: 48px;
+    }
+    footer .section-heading{
+        width: 50%;
+    }
+    footer{
+        margin-top: 102px;
+        padding: 120px 105px 45px 105px;
+    }
+    footer .footer-bottom {
+        padding-top: 160px;
+    }
+    .register-form .right-box h3{
+        font-size: var(--largeD);
+    }
+    .register-form .right-box .section-paragraph{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .register-form .section-heading{
+        font-size: var(--semiLargeD);
+    }
+    .register-form .form-area{
+        padding-top: 28px;
+    }
+    .register-form .col-lg-6:nth-child(1){
+        padding-right: 100px;
+    }
+    .register-form{
+        padding-top: 50px;
+        padding-left: 80px;
+    }
+
+
+}
+
+@media(max-width:1250px){
+    .hero-wrap .smile-images .smile:nth-child(2) img,
+    .hero-wrap .smile-images .smile:nth-child(3) img{
+        width: 100px;
+    }
+    .our-benefits .benefits-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .brand-logos .brand-logos-wrapper{
+        flex-wrap: wrap;
+    }
+    footer {
+        padding: 120px 90px 45px 90px;
+    }
+    footer .section-heading{
+        width: 40%;
+    }
+    .register-form .right-box h3{
+        font-size: var(--semiLarge2);
+    }
+    .register-form .right-box .section-paragraph{
+        font-size: 14px;
+        width: 42%;
+    }
+    .register-form .col-lg-6:nth-child(1){
+        padding-right: 70px;
+    }
+   
+}
