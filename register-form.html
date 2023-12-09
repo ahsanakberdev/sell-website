@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- DESKTOP CSS -->
+    <link rel="stylesheet" href="assets/css/desktop.css">
+    <!-- TABLET CSS -->
+    <link rel="stylesheet" href="assets/css/tablet.css">
+    <!-- PHONE CSS -->
+    <link rel="stylesheet" href="assets/css/phone.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- RESGISTER FORM -->
+    <section class="register-form">
+        <div class="register-form-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="absolute-img" style="position: absolute;">
+                <img src="assets/img/small-ring.svg" alt="">
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="register-box">
+                        <h2 class="section-heading">
+                            Get started with Sell
+                        </h2>
+                        <p class="section-paragraph">Launch your business online.</p>
+                        <div class="form-area">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <div class="field-input">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Store Name</label>
+                                <div class="flex-area">
+                                    <div class="field-input">
+                                        <input type="text" name="" id="">
+                                        <span class="sell">.sell.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <div class="field-input">
+                                    <input id="password-field" type="password" name="password">
+                                    <span onclick="showPassword()" id="toggle-pass" class="toggle-password"></span>
+                                </div>  
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password Confirmation</label>
+                                <div class="field-input">
+                                    <input id="password-field2" type="password" name="password">
+                                    <span onclick="showPassword2()" toggle="#password-field" id="toggle-pass2" class="toggle-password"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-area" style="height: auto;">
+                            <div class="terms-services">
+                                <input type="checkbox" name="" id="chk1">
+                                <label for="chk1" class="section-paragraph mb-0">Check here to indicate that you have read and agree 
+                                    to our <a href="#">Terms of Services</a> and <a href="#">Privacy Policy</a>
+                                </label>
+                            </div>
+                            <div class="actions">
+                                <a href="" class="custom-btn">Create Account</a>
+                            </div>
+                            <p class="account-signin">Already have an account? <a href="#">Sign in</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-box">
+                        <h3>Digital selling <br> with Sell</h3>
+                        <p class="section-paragraph">Lorem ipsum dolor sit amet consectetur. Urna nullam amet tempor quis ornare. Ultricies euismod lorem posuere et eu et senectus pretium et. Viverra nisi etiam leo lorem.</p>
+                        <div class="picture">
+                            <img src="assets/img/tablet-register.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RESGISTER FORM -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
